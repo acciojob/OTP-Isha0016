@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.code-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.code {
+    width: 45px;
+    height: 55px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.code:focus {
+    outline: 2px solid #777;
+}
